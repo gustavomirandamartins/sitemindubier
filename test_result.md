@@ -140,6 +140,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "Hero heading 'Business Sustainability powered by Soil Intelligence' is visible with proper styling. Background image from Pexels is displaying correctly. Both buttons ('Book a demo' and 'How it works') are present and visible. Resilience score card showing 6.5 is visible with animated CountUp effect. Share of soils card showing 74% is visible with proper styling and stacked bar chart. All animated numbers are working correctly."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: Both Resilience Score card and Share of Soils card have proper frosted glass transparency effect with bg-primary-foreground/20 (rgba(255,255,255,0.2)) and backdrop-blur-[20px]. Wheat field background is clearly visible through the cards. 'How it works' button has translucent glassmorphism (bg-primary-foreground/15 + backdrop-blur-[16px]). All styling working perfectly."
   
   - task: "Business at Risk Section"
     implemented: true
