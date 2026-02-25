@@ -128,6 +128,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "GENESIS logo visible and functional. Nav links (Use cases, Science, Press) are present and visible. 'Book a demo' button is visible in navbar. Navbar scroll effect working perfectly - background changes from transparent (rgba(0,0,0,0)) to opaque/frosted (rgba(255,255,255,0.9)) when scrolling down. Mobile menu hamburger icon is visible on mobile viewport."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: Navbar has proper frosted glass effect on scroll with bg-card/25 (rgba(255,255,255,0.25)) and backdrop-blur-[20px]. Scroll effect tested and working - navbar starts transparent and becomes glassmorphic when scrolling. Perfect implementation."
   
   - task: "Hero Section"
     implemented: true
