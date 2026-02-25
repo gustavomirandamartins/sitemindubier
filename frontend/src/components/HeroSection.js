@@ -34,20 +34,20 @@ const CountUp = ({ end, duration = 2000, suffix = "", prefix = "" }) => {
 };
 
 const ResilienceScoreCard = () => (
-  <Card className="bg-card/90 backdrop-blur-md rounded-2xl p-5 shadow-genesis-elevated border border-border/30 w-full max-w-[320px]">
+  <Card className="bg-primary-foreground/20 backdrop-blur-[20px] rounded-2xl p-5 shadow-genesis-elevated border border-primary-foreground/25 w-full max-w-[320px]">
     <div className="flex items-center justify-between mb-3">
-      <span className="text-sm font-medium text-muted-foreground">Resilience score</span>
-      <span className="text-xs bg-accent/10 text-accent px-2 py-0.5 rounded-full font-medium">Top 30%</span>
+      <span className="text-sm font-medium text-primary-foreground/70">Resilience score</span>
+      <span className="text-xs bg-primary-foreground/15 text-primary-foreground/90 px-2 py-0.5 rounded-full font-medium backdrop-blur-sm border border-primary-foreground/20">Top 30%</span>
     </div>
     <div className="flex items-end gap-3 mb-3">
-      <span className="text-4xl font-bold text-foreground"><CountUp end={6.5} /></span>
+      <span className="text-4xl font-bold text-primary-foreground"><CountUp end={6.5} /></span>
       <span className="text-sm text-accent font-medium mb-1">Good</span>
     </div>
     {/* Score bar */}
-    <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden mb-2">
+    <div className="w-full h-2.5 bg-primary-foreground/10 rounded-full overflow-hidden mb-2">
       <div className="h-full rounded-full animate-fill-bar" style={{ width: '65%', background: 'linear-gradient(90deg, hsl(var(--soil-degraded)), hsl(var(--soil-fair)), hsl(var(--soil-good)))' }} />
     </div>
-    <div className="flex justify-between text-xs text-muted-foreground">
+    <div className="flex justify-between text-xs text-primary-foreground/50">
       <span>0</span>
       <span>10</span>
     </div>
