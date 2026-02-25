@@ -111,7 +111,7 @@ export const ScienceSection = () => {
                 {countries.map((country) => (
                   <span
                     key={country}
-                    className="text-xs px-3 py-1.5 rounded-full bg-muted text-muted-foreground font-medium hover:bg-accent/10 hover:text-accent transition-colors duration-200 cursor-default"
+                    className="text-xs px-3 py-1.5 rounded-full bg-muted/25 backdrop-blur-[10px] border border-border/20 text-muted-foreground font-medium hover:bg-accent/10 hover:text-accent hover:border-accent/20 transition-colors duration-200 cursor-default"
                   >
                     <MapPin size={10} className="inline mr-1" />
                     {country}
