@@ -95,7 +95,7 @@ export const PlatformSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <Card className="rounded-2xl p-5 border border-border/50 shadow-genesis bg-card h-full flex flex-col">
+            <Card className="rounded-2xl p-5 border border-border/30 shadow-genesis bg-card/25 backdrop-blur-[16px] h-full flex flex-col">
               <h4 className="text-sm font-semibold text-foreground mb-4">Spot outliers. Prioritise interventions.</h4>
               <div className="space-y-3 flex-1">
                 <DataCard country="USA" crop="Soja" status="Fair" score={4.8} />
