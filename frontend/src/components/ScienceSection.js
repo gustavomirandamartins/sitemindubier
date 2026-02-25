@@ -10,15 +10,16 @@ const countries = [
   "Peru", "France", "Romania", "Spain", "Greece", "Portugal", "Italy"
 ];
 
-const MethodCard = ({ icon, title, description, gradient, delay }) => (
+const MethodCard = ({ icon, title, description, image, delay }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ delay }}
   >
-    <Card className={`relative rounded-2xl overflow-hidden h-64 lg:h-72 border-0 group cursor-pointer ${gradient}`}>
-      <div className="absolute inset-0 bg-foreground/60 group-hover:bg-foreground/50 transition-colors duration-300" />
+    <Card className="relative rounded-2xl overflow-hidden h-64 lg:h-72 border-0 group cursor-pointer">
+      <img src={image} alt={title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+      <div className="absolute inset-0 bg-foreground/55 group-hover:bg-foreground/45 transition-colors duration-300" />
       <div className="relative z-10 p-6 lg:p-8 h-full flex flex-col justify-end">
         <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center text-primary-foreground mb-4">
           {icon}
