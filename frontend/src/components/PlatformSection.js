@@ -15,9 +15,9 @@ const PlatformFeatureCard = ({ icon, title, description }) => (
 );
 
 const DataCard = ({ country, crop, status, score, color }) => (
-  <div className="flex items-center justify-between p-3 bg-card/60 backdrop-blur-sm rounded-xl border border-border/30">
+  <div className="flex items-center justify-between p-3 bg-card/20 backdrop-blur-[12px] rounded-xl border border-border/20">
     <div className="flex items-center gap-3">
-      <div className="w-8 h-8 rounded-lg bg-muted/50 flex items-center justify-center text-xs font-bold">
+      <div className="w-8 h-8 rounded-lg bg-muted/30 backdrop-blur-sm flex items-center justify-center text-xs font-bold">
         {country.slice(0, 2).toUpperCase()}
       </div>
       <div>
