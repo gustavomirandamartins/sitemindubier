@@ -227,6 +227,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "'Make the data talk' heading is visible. World map is displaying with Globe icon and country dots with animated pulse effects. Verified visibility of country dots for France, Brazil, USA, India, Australia, Canada, Turkey, Spain, Italy, Peru, Argentina, and Ivory Coast. Country tags below the map are visible for all 17 countries including Ivory Coast, Brazil, United States, Canada, Turkey, Nicaragua, Argentina, India, Australia, Scotland, Peru, France, Romania, Spain, Greece, Portugal, and Italy. All three methodology cards are visible and properly styled: 'Soil samplings' with FlaskConical icon, 'Remote sensing' with Satellite icon, and 'Scoring' with Globe icon. Background images from Unsplash are loading correctly for each card."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: Science world map card has proper frosted glass transparency with bg-card/25 (rgba(255,255,255,0.25)) and backdrop-blur-[16px]. Country tags have glassmorphic pill-shaped styling with rounded-full, bg-muted/25 (rgba(246,245,244,0.25)), and backdrop-blur-[10px]. All glassmorphism effects working perfectly in Science section."
   
   - task: "Testimonials Section"
     implemented: true
