@@ -109,7 +109,7 @@ export const BusinessAtRisk = () => {
             {metrics.map((metric, i) => (
               <Card
                 key={metric.label}
-                className="bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 rounded-xl p-5 hover:bg-primary-foreground/10 transition-colors duration-300"
+                className="bg-primary-foreground/15 backdrop-blur-[20px] border border-primary-foreground/20 rounded-xl p-5 hover:bg-primary-foreground/20 transition-colors duration-300"
               >
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-xl bg-accent/20 flex items-center justify-center text-accent">
