@@ -151,7 +151,7 @@ export const PlatformSection = () => {
                   { type: "Short vegetation cover", co2: 146, level: 2 },
                   { type: "Bare soil", co2: 121, level: 3 },
                 ].map((item) => (
-                  <div key={item.type} className="flex items-center gap-3 p-3 bg-muted/30 rounded-xl">
+                  <div key={item.type} className="flex items-center gap-3 p-3 bg-muted/15 backdrop-blur-[12px] rounded-xl border border-border/15">
                     <div className={`w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold ${
                       item.level === 1 ? 'bg-soil-good/10 text-soil-good' : 
                       item.level === 2 ? 'bg-soil-fair/10 text-soil-fair' : 
