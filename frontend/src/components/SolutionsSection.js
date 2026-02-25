@@ -5,10 +5,10 @@ import { CheckCircle, ArrowRight, Map, BarChart3 } from "lucide-react";
 
 const ScoreNode = ({ score, label, x, y, color = "accent" }) => (
   <div className="absolute" style={{ left: `${x}%`, top: `${y}%` }}>
-    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shadow-genesis-soft ${
-      score >= 7 ? 'bg-soil-good text-accent-foreground' : 
-      score >= 5 ? 'bg-soil-fair text-foreground' : 
-      'bg-soil-degraded text-foreground'
+    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shadow-genesis-soft backdrop-blur-[12px] border ${
+      score >= 7 ? 'bg-soil-good/30 border-soil-good/30 text-foreground' : 
+      score >= 5 ? 'bg-soil-fair/30 border-soil-fair/30 text-foreground' : 
+      'bg-soil-degraded/30 border-soil-degraded/30 text-foreground'
     }`}>
       {score}
     </div>
