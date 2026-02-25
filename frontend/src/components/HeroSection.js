@@ -139,7 +139,7 @@ export const HeroSection = () => {
             </Button>
             <Button
               variant="outline"
-              className="rounded-full px-8 py-6 text-base font-medium border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 backdrop-blur-sm"
+              className="rounded-full px-8 py-6 text-base font-medium border-primary-foreground/25 text-primary-foreground bg-primary-foreground/15 hover:bg-primary-foreground/25 backdrop-blur-[16px]"
             >
               How it works
             </Button>
