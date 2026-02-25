@@ -21,7 +21,7 @@ const MethodCard = ({ icon, title, description, image, delay }) => (
       <img src={image} alt={title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy" />
       <div className="absolute inset-0 bg-foreground/55 group-hover:bg-foreground/45 transition-colors duration-300" />
       <div className="relative z-10 p-6 lg:p-8 h-full flex flex-col justify-end">
-        <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center text-primary-foreground mb-4">
+        <div className="w-10 h-10 rounded-xl bg-primary-foreground/15 backdrop-blur-[16px] border border-primary-foreground/20 flex items-center justify-center text-primary-foreground mb-4">
           {icon}
         </div>
         <h4 className="text-lg lg:text-xl font-bold text-primary-foreground mb-2">{title}</h4>
