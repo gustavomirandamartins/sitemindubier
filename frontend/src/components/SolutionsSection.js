@@ -60,7 +60,7 @@ export const SolutionsSection = () => {
 
               {/* Content */}
               <div className="p-6 lg:p-8 flex-1 flex flex-col">
-                <Badge variant="secondary" className="w-fit mb-3 text-xs rounded-full px-3">
+                <Badge variant="secondary" className="w-fit mb-3 text-xs rounded-full px-3 bg-card/25 backdrop-blur-[10px] border border-border/20">
                   For Industrials
                 </Badge>
                 <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-3">
