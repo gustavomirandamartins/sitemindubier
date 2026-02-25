@@ -91,9 +91,9 @@ const SoilHealthCard = () => {
       <div className="grid grid-cols-5 gap-1">
         {segments.map((seg) => (
           <div key={seg.label} className="text-center">
-            <span className="text-sm font-semibold text-foreground">{seg.value}</span>
-            <p className="text-[10px] text-muted-foreground leading-tight">{seg.label}</p>
-            <p className="text-[9px] text-muted-foreground/60">{seg.range}</p>
+            <span className="text-sm font-semibold text-primary-foreground">{seg.value}</span>
+            <p className="text-[10px] text-primary-foreground/60 leading-tight">{seg.label}</p>
+            <p className="text-[9px] text-primary-foreground/40">{seg.range}</p>
           </div>
         ))}
       </div>
