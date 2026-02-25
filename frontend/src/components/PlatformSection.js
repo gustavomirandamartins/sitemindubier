@@ -111,7 +111,7 @@ export const PlatformSection = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <Card className="rounded-2xl p-5 border border-border/50 shadow-genesis bg-card h-full flex flex-col">
+            <Card className="rounded-2xl p-5 border border-border/30 shadow-genesis bg-card/25 backdrop-blur-[16px] h-full flex flex-col">
               <h4 className="text-sm font-semibold text-foreground mb-4">Identify production modes & best practices</h4>
               <div className="space-y-4 flex-1">
                 <div className="flex items-center justify-between p-3 bg-muted/50 rounded-xl">
