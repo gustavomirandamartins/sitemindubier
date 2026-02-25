@@ -212,6 +212,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "'The first Land Business Intelligence' heading is visible with proper styling. All three feature descriptions are present: 'Solution built for scale', 'High-integrity data', and 'Intuitive & Visual' with icons and descriptions. All three data dashboard cards are visible: 'Spot outliers. Prioritise interventions.' showing USA (Soja, Fair, 4.8) and Brazil (Soja, Good, 6.5), 'Identify production modes & best practices' showing conventional (17%) vs organic (95%) agriculture, and 'Measure environmental co-benefits' showing three vegetation types with CO2 equivalents. All styling and data visualizations are working correctly."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: All three platform dashboard cards have proper glassmorphism with bg-card/25 (rgba(255,255,255,0.25)) and backdrop-blur-[16px]. Cards are transparent with backdrop blur as expected. Visual effect working perfectly."
   
   - task: "Science Section"
     implemented: true
