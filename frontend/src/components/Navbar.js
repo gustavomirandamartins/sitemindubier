@@ -24,7 +24,7 @@ export const Navbar = () => {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
           scrolled
-            ? "bg-card/90 backdrop-blur-md border-b border-border/50 shadow-genesis-soft"
+            ? "bg-card/25 backdrop-blur-[20px] border-b border-border/20 shadow-genesis-soft"
             : "bg-transparent"
         }`}
       >
