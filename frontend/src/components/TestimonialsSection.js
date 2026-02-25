@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
                   
                   <div className="relative z-10 h-full flex flex-col justify-end p-6 lg:p-8">
-                    <div className="w-12 h-12 rounded-xl bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center mb-4">
+                    <div className="w-12 h-12 rounded-xl bg-primary-foreground/15 backdrop-blur-[16px] border border-primary-foreground/20 flex items-center justify-center mb-4">
                       <span className="text-primary-foreground font-bold text-lg">{testimonial.company.charAt(0)}</span>
                     </div>
                     <h3 className="text-xl lg:text-2xl font-bold text-primary-foreground mb-1">{testimonial.company}</h3>
