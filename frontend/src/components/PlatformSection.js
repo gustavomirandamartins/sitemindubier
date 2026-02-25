@@ -6,7 +6,7 @@ import { Layers, Shield, Eye, ArrowRight, TrendingUp, BarChart3, Leaf } from "lu
 
 const PlatformFeatureCard = ({ icon, title, description }) => (
   <div className="text-center lg:text-left">
-    <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mx-auto lg:mx-0 mb-4">
+    <div className="w-12 h-12 rounded-xl bg-accent/10 backdrop-blur-[12px] border border-accent/15 flex items-center justify-center text-accent mx-auto lg:mx-0 mb-4">
       {icon}
     </div>
     <h4 className="text-base font-semibold text-foreground mb-2">{title}</h4>
