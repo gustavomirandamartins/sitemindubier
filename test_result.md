@@ -185,6 +185,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "'Tackle the key challenges' heading is visible. Both solution cards are present and properly styled: 'For Industrials' card with map visualization showing country scores (Spain 4.8, Canada 6.3, USA 5.8, Brasil 7.1) and 'For Suppliers' card with bar chart showing crop scores (Rapeseed 6.7, Vine 8.3, Wheat 6.9, Beetroot 5.5, Cognac 6.1). All content, icons, and styling are working correctly."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: Both solution cards (For Industrials and For Suppliers) have light translucent backgrounds with bg-card/30 (rgba(255,255,255,0.3)) and backdrop-blur-[16px]. Glassmorphism effect is properly applied and visible."
   
   - task: "Benchmark Section"
     implemented: true
