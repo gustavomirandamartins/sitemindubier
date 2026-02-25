@@ -68,15 +68,15 @@ const SoilHealthCard = () => {
   ];
 
   return (
-    <Card className="bg-card/90 backdrop-blur-md rounded-2xl p-5 shadow-genesis-elevated border border-border/30 w-full max-w-[380px]">
+    <Card className="bg-primary-foreground/20 backdrop-blur-[20px] rounded-2xl p-5 shadow-genesis-elevated border border-primary-foreground/25 w-full max-w-[380px]">
       <div className="flex items-center justify-between mb-3">
-        <span className="text-sm font-medium text-muted-foreground">Share of soils in good health</span>
+        <span className="text-sm font-medium text-primary-foreground/70">Share of soils in good health</span>
       </div>
       <div className="flex items-baseline gap-2 mb-1">
-        <span className="text-4xl font-bold text-foreground"><CountUp end={74} /></span>
-        <span className="text-xl font-bold text-foreground">%</span>
+        <span className="text-4xl font-bold text-primary-foreground"><CountUp end={74} /></span>
+        <span className="text-xl font-bold text-primary-foreground">%</span>
       </div>
-      <p className="text-xs text-muted-foreground mb-3">in good health &middot; 9.5k of 13.4k ha</p>
+      <p className="text-xs text-primary-foreground/60 mb-3">in good health &middot; 9.5k of 13.4k ha</p>
       {/* Stacked bar */}
       <div className="w-full h-6 rounded-full overflow-hidden flex mb-3">
         {segments.map((seg) => (
