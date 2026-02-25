@@ -128,21 +128,21 @@ export const ScienceSection = () => {
             icon={<FlaskConical size={20} />}
             title="Soil samplings"
             description="Global standardized operations, scientifically designed with ISO indicators."
-            gradient=""
+            image="https://images.unsplash.com/photo-1761474909188-ee209bfcfe60?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxyb2xsaW5nJTIwZ3JlZW4lMjBmaWVsZHN8ZW58MHx8fHwxNzcyMDI1NTI4fDA&ixlib=rb-4.1.0&q=85"
             delay={0.1}
           />
           <MethodCard
             icon={<Satellite size={20} />}
             title="Remote sensing"
             description="Detection of key practices, from vegetation cover to natural habitats, and more."
-            gradient=""
+            image="https://images.pexels.com/photos/20286975/pexels-photo-20286975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             delay={0.2}
           />
           <MethodCard
             icon={<Globe size={20} />}
             title="Scoring"
             description="Transforming raw indicator values into a 0-10 score, adapted to the specific local context."
-            gradient=""
+            image="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d"
             delay={0.3}
           />
         </div>
