@@ -143,7 +143,7 @@ export const PlatformSection = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <Card className="rounded-2xl p-5 border border-border/50 shadow-genesis bg-card h-full flex flex-col">
+            <Card className="rounded-2xl p-5 border border-border/30 shadow-genesis bg-card/25 backdrop-blur-[16px] h-full flex flex-col">
               <h4 className="text-sm font-semibold text-foreground mb-4">Measure environmental co-benefits</h4>
               <div className="space-y-3 flex-1">
                 {[
