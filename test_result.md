@@ -158,6 +158,9 @@ frontend:
         - working: true
           agent: "testing"
           comment: "'Business at risk. It is time to act.' heading is visible with proper styling. Both percentage stats (+50% and +60%) are present in the page content with animated numbers. All three metric cards are visible and properly styled: Water retention (246 m³/ha), Biodiversity (11 kg/ha), and Carbon stock (260 t/ha). Background image and overlay are working correctly."
+        - working: true
+          agent: "testing"
+          comment: "Glassmorphism update verified: All three metric cards (Water retention, Biodiversity, Carbon stock) have proper transparency with bg-primary-foreground/15 (rgba(255,255,255,0.15)) and backdrop-blur-[20px]. Cards are transparent with backdrop blur on the dark section background as expected. Glassmorphism working perfectly."
   
   - task: "Logo Carousel"
     implemented: true
