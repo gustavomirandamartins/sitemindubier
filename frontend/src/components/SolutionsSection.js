@@ -100,9 +100,9 @@ export const SolutionsSection = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <Card className="rounded-2xl overflow-hidden border border-border/50 shadow-genesis hover:shadow-genesis-hover transition-shadow duration-300 h-full flex flex-col">
+            <Card className="rounded-2xl overflow-hidden border border-border/30 shadow-genesis hover:shadow-genesis-hover transition-shadow duration-300 h-full flex flex-col bg-card/30 backdrop-blur-[16px]">
               {/* Chart Visualization */}
-              <div className="relative h-56 lg:h-64 bg-muted/30 overflow-hidden p-4">
+              <div className="relative h-56 lg:h-64 bg-muted/10 overflow-hidden p-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent" />
                 <BarChart3 size={200} className="absolute right-4 top-4 text-accent/10" strokeWidth={0.5} />
                 <div className="relative z-10 flex flex-wrap gap-3 p-4">
