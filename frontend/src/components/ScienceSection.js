@@ -53,7 +53,7 @@ export const ScienceSection = () => {
           </p>
           <Button
             variant="outline"
-            className="rounded-full px-8 py-5 mt-6 border-border text-foreground hover:bg-muted transition-colors duration-200"
+            className="rounded-full px-8 py-5 mt-6 border-border/25 text-foreground bg-card/20 backdrop-blur-[16px] hover:bg-card/30 transition-colors duration-200"
           >
             How it works
             <ArrowRight size={16} className="ml-2" />
