@@ -113,7 +113,7 @@ export const SolutionsSection = () => {
                     { crop: "Beetroot", score: 5.5 },
                     { crop: "Cognac", score: 6.1 },
                   ].map((item) => (
-                    <div key={item.crop} className="bg-card/80 backdrop-blur-sm rounded-xl px-3 py-2 shadow-genesis-soft border border-border/30">
+                    <div key={item.crop} className="bg-card/20 backdrop-blur-[16px] rounded-xl px-3 py-2 shadow-genesis-soft border border-border/20">
                       <span className={`text-lg font-bold ${
                         item.score >= 7 ? 'text-soil-good' : 
                         item.score >= 5 ? 'text-soil-fair' : 'text-soil-degraded'
