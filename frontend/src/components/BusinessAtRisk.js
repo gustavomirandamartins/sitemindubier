@@ -112,7 +112,7 @@ export const BusinessAtRisk = () => {
                 className="bg-primary-foreground/15 backdrop-blur-[20px] border border-primary-foreground/20 rounded-xl p-5 hover:bg-primary-foreground/20 transition-colors duration-300"
               >
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-accent/20 flex items-center justify-center text-accent">
+                  <div className="w-12 h-12 rounded-xl bg-accent/15 backdrop-blur-[12px] border border-accent/20 flex items-center justify-center text-accent">
                     {metric.icon}
                   </div>
                   <div>
