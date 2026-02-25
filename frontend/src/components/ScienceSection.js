@@ -67,7 +67,7 @@ export const ScienceSection = () => {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <Card className="rounded-2xl p-6 lg:p-10 border border-border/50 shadow-genesis bg-card">
+          <Card className="rounded-2xl p-6 lg:p-10 border border-border/30 shadow-genesis bg-card/25 backdrop-blur-[16px]">
             <div className="relative">
               {/* Simplified World Map with Dots */}
               <div className="relative h-48 lg:h-72 overflow-hidden">
