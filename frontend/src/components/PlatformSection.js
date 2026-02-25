@@ -114,14 +114,14 @@ export const PlatformSection = () => {
             <Card className="rounded-2xl p-5 border border-border/30 shadow-genesis bg-card/25 backdrop-blur-[16px] h-full flex flex-col">
               <h4 className="text-sm font-semibold text-foreground mb-4">Identify production modes & best practices</h4>
               <div className="space-y-4 flex-1">
-                <div className="flex items-center justify-between p-3 bg-muted/50 rounded-xl">
+                <div className="flex items-center justify-between p-3 bg-muted/20 backdrop-blur-[12px] rounded-xl border border-border/15">
                   <div>
                     <p className="text-xs text-muted-foreground">Conventional agriculture</p>
                     <p className="text-sm font-medium text-foreground">Healthy soils</p>
                   </div>
                   <span className="text-2xl font-bold text-soil-fair">17%</span>
                 </div>
-                <div className="flex items-center justify-between p-3 bg-accent/5 rounded-xl border border-accent/10">
+                <div className="flex items-center justify-between p-3 bg-accent/5 backdrop-blur-[12px] rounded-xl border border-accent/10">
                   <div>
                     <p className="text-xs text-muted-foreground">Organic agriculture</p>
                     <p className="text-sm font-medium text-foreground">Healthy soils</p>
