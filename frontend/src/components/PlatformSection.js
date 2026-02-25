@@ -47,7 +47,7 @@ export const PlatformSection = () => {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <Badge variant="secondary" className="mb-4 rounded-full px-4 py-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+          <Badge variant="secondary" className="mb-4 rounded-full px-4 py-1 text-xs font-medium uppercase tracking-wider text-muted-foreground bg-card/25 backdrop-blur-[12px] border border-border/20">
             The Platform
           </Badge>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
